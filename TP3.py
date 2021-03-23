@@ -4,7 +4,7 @@ from math import *
 import time
 
 
-# Partie 1 : Programmation des méthodes itératives
+# Part 1 : Programming iterative methods
 
 def MIGeneral (M, N, b, x_0, epsilon, Nitermax):
 	Niter = 0
@@ -57,7 +57,7 @@ def MIRelaxation(A,b,omega,x_0,epsilon,Nitermax):
 	xp, Niter, erreur = MIGeneral(M,N,b,x_0,epsilon,Nitermax)
 	return (xp, Niter, erreur, normMN)
 
-#Partie 2 : Expérimentation des méthodes 
+#Part  : Trying these methods 
 
 def A_B (n):
 	A = np.zeros((n,n))
